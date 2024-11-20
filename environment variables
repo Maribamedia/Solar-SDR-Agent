@@ -1,0 +1,44 @@
+# OpenAI API credentials
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+OPENAI_API_URL=https://api.openai.com/v1/
+
+# Discord webhook settings
+DISCORD_WEBHOOK_URL=YOUR_DISCORD_WEBHOOK_URL
+DISCORD_CHANNEL_ID=YOUR_DISCORD_CHANNEL_ID
+
+# SDR Agent settings
+SDR_AGENT_TOKEN=YOUR_SDR_AGENT_TOKEN
+SDR_AGENT_SECRET_KEY=YOUR_SDR_AGENT_SECRET_KEY
+SDR_AGENT_APP_ID=YOUR_SDR_AGENT_APP_ID
+
+# Database settings
+DATABASE_URL=YOUR_DATABASE_URL
+DATABASE_USERNAME=YOUR_DATABASE_USERNAME
+DATABASE_PASSWORD=YOUR_DATABASE_PASSWORD
+DATABASE_NAME=YOUR_DATABASE_NAME
+
+# Other settings
+NODE_ENV=development
+PORT=3000
+HOST=0.0.0.0
+LOG_LEVEL=debug
+```
+Here's a brief explanation of each setting:
+
+* `OPENAI_API_KEY`: Your OpenAI API key, used to authenticate API requests to OpenAI.
+* `OPENAI_API_URL`: The base URL for the OpenAI API.
+* `DISCORD_WEBHOOK_URL`: The URL for the Discord webhook that will receive events from the SDR Agent.
+* `DISCORD_CHANNEL_ID`: The ID of the Discord channel where the SDR Agent will send messages.
+* `SDR_AGENT_TOKEN`: A token used to authenticate API requests to the SDR Agent.
+* `SDR_AGENT_SECRET_KEY`: A secret key used to sign API requests to the SDR Agent.
+* `SDR_AGENT_APP_ID`: The ID of the SDR Agent application.
+* `DATABASE_URL`: The URL for the database used to store SDR Agent data.
+* `DATABASE_USERNAME`: The username for the database.
+* `DATABASE_PASSWORD`: The password for the database.
+* `DATABASE_NAME`: The name of the database.
+* `NODE_ENV`: The environment in which the SDR Agent is running (e.g. development or production).
+* `PORT`: The port on which the SDR Agent is listening.
+* `HOST`: The host IP address on which the SDR Agent is listening.
+* `LOG_LEVEL`: The log level for the SDR Agent (e.g. debug, info, warn, error).
+
+Note that you should replace the `YOUR_` placeholders with your actual API keys, tokens, and other settings.
